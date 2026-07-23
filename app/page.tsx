@@ -4,12 +4,8 @@ import { siteConfig } from "./site-config";
 export default function Home() {
   return (
     <main className="migration-page min-h-screen bg-brand-navy px-5 py-7 text-white sm:px-8 sm:py-10">
-      <section className="mx-auto flex min-h-[calc(100vh-3.5rem)] w-full max-w-[42rem] flex-col items-center justify-center text-center sm:min-h-[calc(100vh-5rem)]">
+      <section className="migration-content mx-auto flex min-h-[calc(100vh-3.5rem)] w-full max-w-[42rem] flex-col items-center justify-center text-center sm:min-h-[calc(100vh-5rem)]">
         <div className="w-full">
-          <p className="mb-10 font-brand-black font-black text-[1.35rem] uppercase leading-none tracking-[0.12em] text-white sm:mb-14 sm:text-[1.65rem]">
-            {siteConfig.brand}
-          </p>
-
           <h1 className="mx-auto max-w-[11ch] font-brand-black font-black text-4xl leading-[1.04] sm:text-5xl md:text-6xl">
             {siteConfig.title}
           </h1>

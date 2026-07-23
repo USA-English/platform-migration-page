@@ -54,5 +54,23 @@ body {
 @media (min-width: 640px) {
   .migration-page {
     background-image: url("/images/backdrop-desktop-migration.webp");
+    height: 100vh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .migration-content {
+    align-items: flex-start;
+    margin-left: clamp(2rem, 9vw, 10rem);
+    margin-right: 0;
+    max-width: 32rem;
+    text-align: left;
+  }
+
+  .migration-content h1,
+  .migration-content div,
+  .migration-content p {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
