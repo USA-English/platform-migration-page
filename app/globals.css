@@ -35,11 +35,7 @@
 }
 
 html {
-  background-color: #09165a;
-  background-image: url("/images/backdrop-mobile-migration.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #000;
 }
 
 body {
@@ -49,18 +45,15 @@ body {
 }
 
 .migration-page {
-  background-color: transparent;
-  background-image: none;
+  background-image: url("/images/backdrop-mobile-migration.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 640px) {
-  html {
-    background-image: url("/images/backdrop-desktop-migration.webp");
-    background-attachment: fixed;
-    background-size: 100% calc(100% + 40px);
-  }
-
   .migration-page {
+    background-image: url("/images/backdrop-desktop-migration.webp");
     height: 100vh;
     min-height: 0;
     overflow: hidden;
