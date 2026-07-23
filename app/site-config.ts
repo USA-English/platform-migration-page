@@ -1,11 +1,9 @@
 export const siteConfig = {
-  brand: "USA English",
   title: "A plataforma mudou de endereço",
   description:
     "O Hub Speaking Rooms agora funciona em uma plataforma nova, mais moderna, organizada, e cheia de novas ferramentas.",
-  accessPrompt: "Use o botão abaixo para acessar",
   primaryAction: {
-    label: "Acessar o Hub Speaking Rooms",
+    label: "Acessor o novo Hub Speaking Rooms",
     href: "https://hub.speakingrooms.com.br/login"
   },
   supportPrompt:

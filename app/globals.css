@@ -12,6 +12,14 @@
 
 @font-face {
   font-family: "TT Supermolot Neue";
+  src: url("/fonts/TT%20Supermolot%20Neue%20Light%20Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Supermolot Neue";
   src: url("/fonts/TT%20Supermolot%20Neue%20Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;

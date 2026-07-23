@@ -10,9 +10,8 @@ export default function Home() {
             {siteConfig.title}
           </h1>
 
-          <div className="mx-auto mt-7 max-w-[35rem] space-y-1 font-brand-light font-light text-base leading-6 text-white/90 sm:mt-8 sm:text-lg sm:leading-7">
+          <div className="mx-auto mt-7 max-w-[35rem] font-brand-bold font-bold text-base leading-6 text-white/90 sm:mt-8 sm:text-lg sm:leading-7">
             <p>{siteConfig.description}</p>
-            <p>{siteConfig.accessPrompt}</p>
           </div>
 
           <div className="mx-auto mt-9 flex w-full max-w-[27rem] flex-col gap-4 sm:mt-10">
@@ -46,7 +45,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="mt-10 max-w-[34rem] font-brand-light font-light text-xs leading-5 text-white/60 sm:mt-12 sm:text-sm">
+        <p className="mt-10 max-w-[34rem] font-brand-light font-light italic text-xs leading-5 text-white/60 sm:mt-12 sm:text-sm">
           {siteConfig.notice}
         </p>
       </section>
