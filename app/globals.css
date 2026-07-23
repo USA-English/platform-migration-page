@@ -43,3 +43,16 @@ body {
   min-height: 100vh;
   font-family: "TT Supermolot Neue", Arial, sans-serif;
 }
+
+.migration-page {
+  background-image: url("/images/backdrop-mobile-migration.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .migration-page {
+    background-image: url("/images/backdrop-desktop-migration.webp");
+  }
+}

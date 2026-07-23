@@ -26,6 +26,8 @@ Os assets utilizados pela página ficam em `public`:
 - `public/fonts`: fontes locais da identidade visual. A página carrega a família `TT Supermolot Neue` a partir desta pasta.
 - `public/images/wpp-icon.webp`: ícone exibido no botão de suporte.
 - `public/images/typ-favicon.webp`: favicon do site, facilmente substituível pelo mesmo caminho.
+- `public/images/backdrop-mobile-migration.webp`: plano de fundo para telas menores que `640px`.
+- `public/images/backdrop-desktop-migration.webp`: plano de fundo para telas a partir de `640px`.
 
 Ainda não há arquivo de logo no repositório. Por isso, a identificação no topo é textual e utiliza a fonte oficial. Quando o logo for enviado, substitua essa assinatura em `app/page.tsx` por uma imagem local.
 
