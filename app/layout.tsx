@@ -2,9 +2,12 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Migração da plataforma | USA English",
+  title: "Hub Speaking Rooms | Novo endereço",
   description:
-    "Página temporária para comunicar a migração da plataforma de alunos da USA English."
+    "Acesse a nova plataforma do Hub Speaking Rooms.",
+  icons: {
+    icon: "/images/typ-favicon.webp"
+  }
 };
 
 export const viewport: Viewport = {
@@ -19,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
