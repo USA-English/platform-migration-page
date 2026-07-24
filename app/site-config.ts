@@ -3,7 +3,7 @@ export const siteConfig = {
   description:
     "O Hub Speaking Rooms agora funciona em uma plataforma nova, mais moderna, organizada, e cheia de novas ferramentas.",
   primaryAction: {
-    label: "Acessor o novo Hub Speaking Rooms",
+    label: "Acessar o novo Hub Speaking Rooms",
     href: "https://hub.speakingrooms.com.br/login"
   },
   supportPrompt:
